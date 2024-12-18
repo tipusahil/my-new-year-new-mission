@@ -134,9 +134,100 @@ font-size: 0.5em;
     }
 
 .sec2_content button:hover{
-background-image:linear-gradient(to right, rgb(252, 141, 104),rgb(255, 255, 255));
 
+background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image:linear-gradient(to right, rgb(252, 117, 72),rgb(255, 255, 255));
+box-shadow: 0 0 9px 5px white;
+/* 
+1.ekane box sadow er value protom 2ta (0 0) dei taile box er 4pashe shadow porbe, jodi kuno value 5/10..px dei thlee j kuno 2side e shadow porbe j.
+ ar jodi -Xpx value dei taile shodow tar biporit/left/top e porbe,but jodi kuno positive value dei tkn default vabe bottom & right side e shodow pore.
+
+3. 3number value ta hocce shadow kototuk gono patla hobe seta define kore.
+
+4.& last 4number value ta hocce  shadow kototuk chorai jabe seta define kore, */
+/*  */
 
 }   
-/*  */
+
+
+/* section3 style start from here */
+
+.section3{
+    background-image: linear-gradient(#ff000030,#ff000000);
+text-align: center;
+font-size: 15px;
+width: 80%;
+margin: 20px 10%;
+}
+.sec3_red_span{
+    color:#FF0000;
+}
+
+.sec3_btn{
+    color:#FF0000;
+   font-size: 13px;
+   /* background-color:#FF0000; */
+   border:1px solid #FF0000;
+   padding:10px 18px;
+   border-radius: 5px;
+}
+
+.sec3_btn:hover{
+    background-color: white;
+    color:#FF0000;
+    /* background-color: transparent; */
+    border:2px solid #FF0000;
+    box-shadow: 0 0 10px  #FF0000;
+}
+
+/* section4 style start from here */
+
+.section4{
+    width: 80%;
+    margin: 20px 10%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+.sec4_column{
+border:2px solid;
+width: 25%;
+margin: 20px;
+}
+
+.sec4_content{
+
+}
+
+.sec4_content  h4{
+    color:red;
+}
+
+.sec4_content  h3{
+    color: black;
+}
+
+.sec4_content p{
+font-size: 10px;
+color: rgb(70, 69, 69);
+}
+
+.img_border{
+    border:20px solid #FF0000;
+  border-radius: 50%;
+padding: 10px;
+text-align: center;
+margin: 0 0px;
+/* background-image: url('/images/Ellipse\ 1.png');
+background-size: cover;
+background-position: 100%; */
+
+}
+.img_border img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
 
