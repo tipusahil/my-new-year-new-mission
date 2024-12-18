@@ -21,7 +21,7 @@
    background-size: contain;
    background-repeat: no-repeat; */
 border: 2px solid;
-    margin:10%;
+    margin:20px 10%;
     text-align: center;
     max-width: 1100px;
     position: relative;
@@ -53,4 +53,41 @@ z-index: -99;
 
 
 
-/*  */
+/* section1 style form here */
+
+
+.section1_happy_new{
+  width: 100%;
+  border: 2px solid;
+  text-align: center;
+ padding: 40px;
+ max-width: 1050px;
+ margin:12%;
+
+}
+
+.section1_contents{
+    margin: 10px;
+    padding:0;
+}
+
+.section1_contents > h2{
+color:#FF0000;
+font-size: 35px;
+}
+
+.section1_contents >p{
+    font-size: 12px;
+    color:#FF0000;
+}
+
+.section1_contents >h4{
+    color:black;
+}
+
+.section1_happy_new >img{
+    width: 100%;
+}
+/* section1 style end.. */
+
+
