@@ -244,3 +244,30 @@ margin: 20px 10%;
 .section5 span{
     color:#FF0000;
 }
+
+/* section6 style start from here */
+
+.section6{
+    width: 80%;
+    margin: 20px 10%;
+}
+
+
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('/images/Rectangle\ 2.png');
+    background-position: bottom ;
+background-size: contain;
+background-repeat: no-repeat;
+position: relative; */
+}
+.section6 img{
+    width: 35%;
+}
+
+.section6 .redbar{
+    width: 100%;
+}
