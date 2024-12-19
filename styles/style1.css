@@ -231,3 +231,16 @@ background-position: 100%; */
     border-radius: 50%;
 }
 
+.section5{
+text-align: center;
+width: 80%;
+margin: 20px 10%;
+
+}
+
+.setion5 h1{
+    font-weight: 700;
+}
+.section5 span{
+    color:#FF0000;
+}
